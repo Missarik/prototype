@@ -1,0 +1,432 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #4e4e4e;
+}
+
+.sm-cards-showcase {
+    margin-top:-300px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.lg-cards-showcase {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    
+}
+
+.btn {
+    font-weight: bold;
+}
+
+#button {
+    margin-left: 100px;
+    width: 32.2%; 
+    position: absolute; 
+    bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#display {
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-bottom: 100px;
+}
+
+.product {
+    height: 700px;
+    padding-left: 00px;
+    padding-top: 107px;
+    padding-bottom: 100px;
+}
+
+#buy {
+    width: 40%;
+}
+
+#buy2 {
+    width: 100%;
+    margin-left: 32px;
+}
+
+.info {
+    padding-top: 100px;
+    color: white;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.container {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.container-order {
+    color: aqua;
+}
+
+.contact-form {
+    padding-left: 0px;
+    padding-top: 100px;
+  }
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #000000;
+}
+  
+input[type=email], select {
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #000000;
+}
+
+input[type=number], select {
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #000000;
+}
+
+input[type=month], select {
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #000000;
+}
+  
+input[type=description], select {
+    width: 100%;
+    height: 150px;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #000000;
+}
+
+#home-button {
+    width: 30%;
+    margin-left: 535px;
+    
+}
+
+footer {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+@media (max-width: 379px)
+{
+    .sm-cards-showcase {
+        margin-top: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .lg-cards-showcase {
+        padding: 20px;
+
+    }
+
+    #display {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 0px;
+    }
+
+    .contact-form {
+        padding-left: 0px;
+        padding-top: 50px;
+    }
+
+    .product {
+        height: 400px;
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+
+    #buy {
+        width: 100%;
+    }
+
+    #buy2 {
+        width: 90%;
+    }
+
+    #buy3 {
+        width: 95.2%;
+        position: absolute;
+        bottom: -48%;
+    }
+
+    #buy4 {
+        width: 95.2%;
+        position: absolute;
+        bottom: -20%;
+    }
+
+    #buy5 {
+        width: 95.2%;
+        position: absolute;
+        bottom: -30%;
+    }
+
+    #buy6 {
+        width: 95.2%;
+        position: absolute;
+        bottom: -350px;
+    }
+
+    #buy7 {
+        width: 95.2%;
+        position: absolute;
+        bottom: -20%;
+    }
+
+    #buy8 {
+        width: 95.2%;
+        position: absolute;
+        bottom: -20%;
+    }
+
+    #buy9 {
+        width: 95.2%;
+        position: absolute;
+        bottom: -70%;
+    }
+
+    #buy10 {
+        width: 95.2%;
+        position: absolute;
+        bottom: -82%;
+    }
+
+    #buy11 {
+        width: 95.2%;
+        position: absolute;
+        bottom: -75%;
+    }
+
+    #buy12 {
+        width: 95.2%;
+        position: absolute;
+        bottom: -76%;
+    }
+
+    #buy13 {
+        width: 95.2%;
+        position: absolute;
+        bottom: -66%;
+    }
+
+    .info {
+        padding-top: 30px;
+        padding-bottom: 120px;
+    }
+
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: left;
+    }
+    
+    .contact-form {
+        text-align: center;
+    }
+
+    #return {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #home-button {
+        width: 50%;
+        margin-left: 88px;
+    }
+
+    .footer {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #billing-footer {
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 450px) 
+{ 
+    .sm-cards-showcase {
+        margin-top: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .lg-cards-showcase {
+        padding: 20px;
+
+    }
+
+    #display {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 0px;
+    }
+
+    .contact-form {
+        padding-left: 0px;
+        padding-top: 50px;
+    }
+
+    .product {
+        height: 400px;
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+
+    #buy {
+        width: 100%;
+    }
+
+    #buy2 {
+        width: 90%;
+    }
+
+    #buy3 {
+        width: 95.2%;
+        position: absolute;
+        bottom: 0px;
+    }
+
+    #buy4 {
+        width: 95.2%;
+        position: absolute;
+        bottom: 0px;
+    }
+
+    #buy5 {
+        width: 95.2%;
+        position: absolute;
+        bottom: -420px;
+    }
+
+    #buy6 {
+        width: 95.2%;
+        position: absolute;
+        bottom: -350px;
+    }
+
+    #buy7 {
+        width: 95.2%;
+        position: absolute;
+        bottom: 0px;
+    }
+
+    #buy8 {
+        width: 95.2%;
+        position: absolute;
+        bottom: -420px;
+    }
+
+    #buy9 {
+        width: 95.2%;
+        position: absolute;
+        bottom: -350px;
+    }
+
+    #buy10 {
+        width: 95.2%;
+        position: absolute;
+        bottom: -350px;
+    }
+
+    #buy11 {
+        width: 95.2%;
+        position: absolute;
+        bottom: -300px;
+    }
+
+    #buy12 {
+        width: 95.2%;
+        position: absolute;
+        bottom: -390px;
+    }
+
+    #buy13 {
+        width: 95.2%;
+        position: absolute;
+        bottom: -270px;
+    }
+
+    .info {
+        padding-top: 30px;
+        padding-bottom: 120px;
+    }
+
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: left;
+    }
+    
+    .contact-form {
+        text-align: center;
+    }
+
+    #home-button {
+        width: 50%;
+        margin-left: 100px;
+        
+    }
+
+    .footer {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #billing-footer {
+        position: absolute;
+        bottom: 0;
+    }
+ }

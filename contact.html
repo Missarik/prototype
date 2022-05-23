@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+  <title>Black Coffee Records | Contact Us</title>
+</head>
+<script>
+  function validate() {
+    var name = document.getElementById("fname").value;
+    var email = document.getElementById("email").value;
+    var description = document.getElementById("description").value;
+
+    if (name == "") {
+      alert("Full Name must not be empty");
+      return false;
+    } else if (email == "") {
+      alert("Email must not be empty");
+      return false;
+    } else if (description == "") {
+      alert("Description must not be empty");
+      return false;
+    }
+  }
+
+</script>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/Logo2.png" class="card-img-top" alt="Black Coffee Records Logo" style="width: 50px;">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="records.html">Records</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="turntables.html">Turntables</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="container" style="padding-bottom: 60px;">
+    <div class="row">
+      <div class="col-lg-6 col-sm-10">
+        <div class="contact-form text-white">
+          <h1><strong>How Can We Help?</strong></h1><br>
+          <p><strong>Do not hesitate to ask if you have any inquiries</strong></p>
+          <p><strong>Simply enter your details here and we will get<br>back to you as soon as we can</strong></p>
+          <p><strong>We will try and answer as soon as possible</strong></p>
+          <p><strong>Or give us a call at +356 2124 9200</strong></p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-sm-10">
+        <div class="info">
+          <form class="mx-auto" name="about-form" onsubmit="return validate()" action="mailto:julian.vella170@gmail.com"
+            method="post" enctype="text/plain">
+            <label class="text-white" for="fname"><strong>Full Name:</strong></label></br>
+            <input type="text" id="fname" name="full name" placeholder="Full Name"></br>
+
+            <label class="text-white"><strong>Email:</strong></label></br>
+            <input type="email" name="Email" id="email" placeholder="Email"></br>
+
+            <label class="text-white" for="description"><strong>Description:</strong></label><br>
+            <input type="description" id="description" name="description" placeholder="Description"><br><br>
+
+            <input type="submit" value="Submit" class="btn btn-outline-light d-grid gap-2 col-6 mx-left"
+              style="width: 100%; ">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+    <footer class="containor d-flex flex-wrap justify-content-between align-items-center pt-5 pb-4 border-top bg-dark">
+      
+      <p class="col-md-12 mb-0 text-white">&copy; 2022 Black Coffee Records</p>
+  
+      <ul class="nav col-md-12 justify-content-end">
+        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-white">Home</a></li>
+        <li class="nav-item"><a href="records.html" class="nav-link px-2 text-white">Records</a></li>
+        <li class="nav-item"><a href="turntables.html" class="nav-link px-2 text-white">Turntables</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-white">Contact Us</a></li>
+      </ul>
+    </footer>
+</body>

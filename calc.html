@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <label>Num 1:</label></br>
+    <input type="number" id="num1"><br>
+    <label>Num 2:</label></br>
+    <input type="number" id="num2"><br><br>
+
+    <p id="result"></p>
+
+    <button id="add" onclick="calc('add')">+</button>
+    <button id="sub" onclick="calc('sub')">-</button>
+    <button id="mul" onclick="calc('mul')">x</button>
+    <button id="div" onclick="calc('div')">/</button>
+</body>
+</html>
+
+<script>
+
+
+function calc(operation) {
+    
+let num1 = parseInt(document.getElementById("num1").value);
+let num2 = parseInt(document.getElementById("num2").value);
+let ans = 0;
+    if (operation == 'add') {
+        ans = num1 + num2;
+    }
+    else if (operation == 'sub') {
+        ans = num1 - num2;
+    }
+    else if (operation == 'mul') {
+        ans = num1 * num2;
+    }
+    else if (operation == 'div') {
+        ans = num1 / num2;
+    }
+
+    document.getElementById("result").innerHTML = "Result = " + ans;
+    console.log(ans);
+}
+
+
+</script>
